@@ -16,15 +16,15 @@ const staticValue = [
     },
     {
         id: shortid.generate(),
-        firstName: "Amanullha",
-        lastName: "Zoha",
-        email: "amanullha@gmail.com"
+        firstName: "DM",
+        lastName: "Maruf",
+        email: "dmmaruf@gmail.com"
     },
     {
         id: shortid.generate(),
-        firstName: "Amanullha",
-        lastName: "Zoha",
-        email: "amanullha@gmail.com"
+        firstName: "Shakil",
+        lastName: "Hossain",
+        email: "shakilhossain@gmail.com"
     }
 ]
 

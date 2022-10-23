@@ -1,4 +1,7 @@
 import { Link, useParams } from "react-router-dom"
+import plus from "../images/plus.png";
+import list from "../images/list.png";
+import edit from "../images/edit.png";
 
 const EmployeeDetails = ({ employees }) => {
     const { id } = useParams();
@@ -10,13 +13,13 @@ const EmployeeDetails = ({ employees }) => {
 
             <div className="btnGroup">
                 <Link className="btn" to="/create" style={{ width: "157px"}}>
-                    <img src="images/vector (2).png" alt="addEmployee" />
+                    <img src={plus} alt="addEmployee" />
                     Add new employee
                 </Link>
                 
                 <Link className="btn" to="/">
                     List of employees
-                    <img src="images/vector (3).png" alt="addEmployee" />
+                    <img src={list} alt="addEmployee" />
                 </Link>
             </div>
 
@@ -33,7 +36,7 @@ const EmployeeDetails = ({ employees }) => {
 
                 <Link className="btn" to={`/${id}/update`}>
                     Edit Employee
-                    <img src="images/vector (4).png" alt="addEmployee" />
+                    <img src={edit} alt="addEmployee" />
                 </Link>
             </div>
         </div>
