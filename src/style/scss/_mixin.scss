@@ -1,0 +1,8 @@
+@mixin tableBorder () {
+    content: "";
+    background: #9CA3AF;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    z-index: 1;
+}

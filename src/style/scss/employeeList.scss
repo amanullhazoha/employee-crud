@@ -1,0 +1,28 @@
+.employeeList{
+    .action{
+        display: flex;
+        align-items: center;
+
+        button, a{
+            background: #60A5FA;
+            margin-bottom: 0;
+            color: #fff;
+            padding: 10px;
+            margin-right: 8px;
+            border: none;
+
+            img{
+                margin-left: 13px;
+                margin-right: 0;
+            }
+
+            &:last-child{
+                margin-right: 0;
+            }
+
+            &.delete{
+                background: #9CA3AF;
+            }
+        }
+    }
+}
